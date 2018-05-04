@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.laptop.jsonecommerce.Accueil"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:text="WELCOME"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="Don't you have an account ? Sign In,"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="and visit us in our web page"
+            android:layout_gravity="center"
+            android:textSize="14sp"/>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_margin="5dp"
+                android:textColor="#fff"
+                android:background="@drawable/buttonstylepink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Join Us"/>
+            <Button
+                android:layout_margin="5dp"
+                android:background="@drawable/buttonstyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Learn More"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:id="@+id/editTextLogin"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="USERNAME" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="PASSWORD"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_marginTop="40dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonstylepink"
+                android:text="Login"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

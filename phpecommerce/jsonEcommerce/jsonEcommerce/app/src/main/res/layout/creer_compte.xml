@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:text="REGISTER NOW"
+            android:layout_gravity="center"/>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:src="@drawable/ecommerce" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextNom"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_create_black_24dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="NAME" />
+
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_email_black_24dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="EMAIL" />
+
+            <EditText
+                android:id="@+id/editTextUsername"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="USERNAME" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@drawable/ic_lock_outline_black_24dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="PASSWORD"
+                android:inputType="textPassword"/>
+
+            <Button
+                android:id="@+id/btnCreerCompte"
+                android:layout_marginTop="40dp"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/buttonstylepink"
+                android:text="Register"
+                android:textColor="#fff"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
